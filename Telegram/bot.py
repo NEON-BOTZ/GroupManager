@@ -11,7 +11,9 @@ BOT_USERNAME = "testdeluxrobot"
 
 
 START_BTNS = InlineKeyboardMarkup(
-    [InlineKeyboardButton(text="help", url="https://t.me/{BOT_USERNAME}?start=help_")]
+    [
+        InlineKeyboardButton(text="help", url="https://t.me/{BOT_USERNAME}?start=help_")
+    ]
 )
 
 @app.on_message(filters.command("start"))
