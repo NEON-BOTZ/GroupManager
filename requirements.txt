@@ -1,4 +1,5 @@
 tweepy==4.0
+openai
 pyrogram
 TgCrypto
 pymongo[srv]
