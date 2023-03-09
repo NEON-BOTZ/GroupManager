@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ChatType, ParseMode
 from math import ceil
-from telegram.config import BOT_USERNAME
+from Telegram.config import BOT_USERNAME
 from pyrogram.types import InlineKeyboardButton
 
 MOD_LOAD = []
