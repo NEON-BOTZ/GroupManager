@@ -7,7 +7,7 @@ print("Initializing MongoDB client")
 mongo_client = MongoClient(config.MONGO_URL)
 db = mongo_client.groupmanager
 app = Client("Client",api_id = config.API_ID,api_hash = config.API_HASH,bot_token = config.BOT_TOKEN,plugins={"root": "Telegram/plugins"})
-BOT_USERNAME = 
+BOT_USERNAME = "testdeluxrobot"
 
 
 START_BTNS = InlineKeyboardMarkup(
