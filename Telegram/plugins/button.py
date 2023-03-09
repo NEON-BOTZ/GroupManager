@@ -3,9 +3,9 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ChatType, ParseMode
 from math import ceil
-from Telegram.config import BOT_USERNAME
 from pyrogram.types import InlineKeyboardButton
 
+BOT_USERNAME = "theguardianxbot"
 MOD_LOAD = []
 MOD_NOLOAD = []
 
