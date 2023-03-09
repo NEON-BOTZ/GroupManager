@@ -1,6 +1,6 @@
 from pyrogram import Client,filters
 from .Config import config
-from pyrogram import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 
 print("Initializing MongoDB client")
