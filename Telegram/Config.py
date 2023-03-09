@@ -6,3 +6,4 @@ class config:
     MONGO_URL = 'mongodb+srv://KoichiGrey:KoichiGrey@cluster0.2bzkqov.mongodb.net/?retryWrites=true&w=majority'
     DEV = [1244977099,1467358214,6290455685]
     OPEN_AI_KEY = ''
+    BOT_USERNAME = "theguardianxbot"
