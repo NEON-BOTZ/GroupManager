@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType, ParseMode
 from math import ceil
 from pyrogram.types import InlineKeyboardButton
 
-BOT_USERNAME = "theguardianxbot"
+BOT_USERNAME = "testdeluxrobot"
 MOD_LOAD = []
 MOD_NOLOAD = []
 
